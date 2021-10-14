@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abadir", "Abadir\Abadir.csproj", "{48947BBF-5F3F-4989-B11F-3A936B757EE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{868ECD0A-1DD7-4105-BBF2-56BB9019D8B7}"
+	ProjectSection(SolutionItems) = preProject
+		Abadir\Employee.cs = Abadir\Employee.cs
+		Abadir\Product.cs = Abadir\Product.cs
+		Abadir\ProductList.cs = Abadir\ProductList.cs
+		Abadir\Supplier.cs = Abadir\Supplier.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{5E51889D-97E4-446C-83D1-72D5E26EBE01}"
+	ProjectSection(SolutionItems) = preProject
+		Abadir\Login.cs = Abadir\Login.cs
+		Abadir\Login.Designer.cs = Abadir\Login.Designer.cs
+		Abadir\Login.resx = Abadir\Login.resx
+		Abadir\MainForm.cs = Abadir\MainForm.cs
+		Abadir\MainForm.Designer.cs = Abadir\MainForm.Designer.cs
+		Abadir\MainForm.resx = Abadir\MainForm.resx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48947BBF-5F3F-4989-B11F-3A936B757EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48947BBF-5F3F-4989-B11F-3A936B757EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48947BBF-5F3F-4989-B11F-3A936B757EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48947BBF-5F3F-4989-B11F-3A936B757EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4EDB915-9AC1-4F53-8E1B-71C31F094A90}
+	EndGlobalSection
+EndGlobal
